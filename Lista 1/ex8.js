@@ -3,7 +3,6 @@
     e escreve-los em ordem crescente.
 */
 const prompt = require('prompt-sync')();
-
 const valueA = Number(prompt('insira o valor A: '));
 const valueB = Number(prompt('insira o valor B: '));
 

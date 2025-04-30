@@ -4,7 +4,6 @@
     compradas, calcule e escreva o valor total da compra.
 */ 
 const prompt = require('prompt-sync')();
-
 const qtdApples = Number(prompt('Insira o número de maçãs: '));
 
 if (qtdApples < 0 ){

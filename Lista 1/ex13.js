@@ -4,6 +4,7 @@
 */
 const prompt = require('prompt-sync')(); 
 let sum = 0
+
 while (true){
     let value = Number(prompt('digite o valor (0 para finalizar): ')); 
     sum += value; 

@@ -3,13 +3,9 @@
     (baixo peso, peso normal, sobrepeso, obesidade) utilizando if-else.
 */
 const prompt = require('prompt-sync')();
-
 const weight = Number(prompt('digite o peso: '));
 const height = Number(prompt('digite a altura: ')); 
-
-const imc = (weight / Math.pow(height, 2));  // Alternativa
-console.log(imc);
-
+const imc = (weight / Math.pow(height, 2));
 
 if (imc < 18.5) {
     console.log('Abaixo do peso normal');
