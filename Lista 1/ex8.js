@@ -4,8 +4,8 @@
 */
 const prompt = require('prompt-sync')();
 
-const valueA = prompt('insira o valor A: ');
-const valueB = prompt('insira o valor B: ');
+const valueA = Number(prompt('insira o valor A: '));
+const valueB = Number(prompt('insira o valor B: '));
 
 if (valueA > valueB){
     console.log(`${valueB}, ${valueA}`);

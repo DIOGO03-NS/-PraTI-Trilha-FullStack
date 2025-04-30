@@ -3,7 +3,7 @@
     10) utilizando um loop for.
 */
 const prompt = require('prompt-sync')();
-const number = prompt('Digite o número: ');
+const number = Number(prompt('Digite o número: '));
 
 console.log('==========================')
 for (i = 1; i <= 10; i++){
