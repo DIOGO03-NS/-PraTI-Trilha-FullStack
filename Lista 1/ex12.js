@@ -5,8 +5,8 @@
 const prompt = require('prompt-sync')();
 const number = Number(prompt('Digite o número: '));
 
-console.log('==========================')
+console.log('==========================');
 for (i = 1; i <= 10; i++){
-    console.log(`*   ${i}    X   ${number}   =   ${i*number}    *`)
+    console.log(`*   ${i}    X   ${number}   =   ${i*number}    *`);
 }
-console.log('===========================')
+console.log('===========================');

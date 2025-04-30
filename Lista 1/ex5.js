@@ -8,7 +8,7 @@ const weight = Number(prompt('digite o peso: '));
 const height = Number(prompt('digite a altura: ')); 
 
 const imc = (weight / Math.pow(height, 2));  // Alternativa
-console.log(imc)
+console.log(imc);
 
 
 if (imc < 18.5) {

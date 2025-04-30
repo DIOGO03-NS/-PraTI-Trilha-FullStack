@@ -14,5 +14,5 @@ for (i = 0; i < 8; i++){
     f0 = f1;
     f1 = fn;
 
-    console.log(fn)
+    console.log(fn);
 }

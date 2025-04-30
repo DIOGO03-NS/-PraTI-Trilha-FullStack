@@ -6,7 +6,7 @@ const prompt = require('prompt-sync')();
 const age = Number(prompt('Digite a idade: '));
 
 if (age < 0){
-    console.log('idade inválida')
+    console.log('idade inválida');
 } else if (age <= 12){
     console.log('é uma criança');
 } else if (age <= 20) {

@@ -13,4 +13,4 @@ while (true){
     }
 }
 
-console.log('a soma é: ' + sum)
+console.log('a soma é: ' + sum);

@@ -7,5 +7,5 @@ const number = Number(prompt('Digite um número: '));
 if (number % 2 == 0) {
     console.log('Numero Par');
 } else {
-    console.log('Numero Impar')
+    console.log('Numero Impar');
 }
