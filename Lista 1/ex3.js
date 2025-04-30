@@ -2,10 +2,15 @@
 const prompt = require('prompt-sync')();
 const grade = Number(prompt('Insira a nota: '));
 
-if (grade < 3){
-    console.log('reprovado');
-} else if (grade < 7){
-    console.log('recuperação');
+if (grade < 0){
+    console.log('nota negativa inválida');
 } else {
-    console.log('aprovado');
+    if (grade < 3){
+        console.log('reprovado');
+    } else if (grade < 7){
+        console.log('recuperação');
+    } else {
+        console.log('aprovado');
+    }
 }
+
